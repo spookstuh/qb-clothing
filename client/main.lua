@@ -317,8 +317,8 @@ Citizen.CreateThread(function()
     for k, v in pairs (Config.Stores) do
         if Config.Stores[k].shopType == "clothing" then
             local clothingShop = AddBlipForCoord(Config.Stores[k].coords)
-            SetBlipSprite(clothingShop, 366)
-            SetBlipColour(clothingShop, 47)
+            SetBlipSprite(clothingShop, 73)
+            SetBlipColour(clothingShop, 60)
             SetBlipScale  (clothingShop, 0.7)
             SetBlipAsShortRange(clothingShop, true)
             BeginTextCommandSetBlipName("STRING")
